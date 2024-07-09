@@ -1,0 +1,72 @@
+.header {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+.title {
+    font-size: 32px;
+    margin: 0px;
+
+
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    display: flex;
+    background-color: aquamarine;
+    flex: 1;
+
+}
+
+
+
+
+.footer {
+    background-color: lightpink;
+    text-align: center;
+    height: 50px;
+ 
+
+
+}
+.projects {
+    display: flex;
+}
+
+.resume {
+    display: flex;
+
+}
+
+.about-me {
+    display: flex;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 22px;
+    color: black;
+}
